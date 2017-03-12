@@ -6,6 +6,6 @@ hierarchy:
   - name: "Hiera YAML level"
     paths:
       - "apache.yaml"
-      - "nginx.yaml"
+      - "haproxy.yaml"
       - "%{osfamily}/%{operatingsystemmajrelease}/%{architecture}/packages.yaml" 
 

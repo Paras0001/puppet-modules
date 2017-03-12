@@ -1,3 +1,0 @@
----
-  nginx::http_port: 8080
-  nginx::https_port: 8043
