@@ -1,0 +1,11 @@
+version: 5
+defaults:
+  datadir: /app/hieradata
+  data_hash: yaml_data
+hierarchy:
+  - name: "Hiera YAML level"
+    paths:
+      - "apache.yaml"
+      - "nginx.yaml"
+      - "%{osfamily}/%{operatingsystemmajrelease}/%{architecture}/packages.yaml" 
+

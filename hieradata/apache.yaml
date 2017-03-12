@@ -1,0 +1,9 @@
+---
+  apache::http_port: 80
+  apache::https_port: 443
+  apache::document_root: '/opt'
+  apache::user: 'apache'
+  apache::group: 'apache'
+  apache::content_root: "%{hiera('apache::document_root')}/tier1"
+  apache::httpd_content_file: "%{hiera('apache::content_root')}/a.html"
+  apache::httpd_conf: '/etc/httpd/conf/httpd.conf'

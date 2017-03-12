@@ -1,0 +1,30 @@
+<html>
+<body bgcolor="#DAF7A6">
+<style>
+  html, body {
+    height: 100%;
+  }
+  #tableContainer-1 {
+    height: 100%;
+    width: 100%;
+    display: table;
+  }
+  #tableContainer-2 {
+    vertical-align: middle;
+    display: table-cell;
+    height: 100%;
+  }
+  #myTable {
+    margin: 0 auto;
+  }
+</style>
+<div id="tableContainer-1">
+  <div id="tableContainer-2">
+    <table id="myTable" width="50%" cellpadding="4" cellspacing="3">
+      <tr><td bgcolor="blue">Type</td><td bgcolor="blue">Hostname</td></tr>
+      <tr><td bgcolor="yellow">Apache</td><td bgcolor="yellow"><%= @fqdn %></td></tr>
+    </table>
+  </div>
+</div>
+</head>
+</html>

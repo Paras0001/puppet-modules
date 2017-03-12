@@ -1,0 +1,15 @@
+{
+  "name": "jkumar-apache",
+  "version": "1.0.0",
+  "author": "jkumar",
+  "summary": "This module is used to install and configure httpd 2.x.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/jkumar19/puppet-modules.git",
+  "project_page": "https://github.com/jkumar19/puppet-modules",
+  "issues_url": "https://github.com/jkumar19/puppet-modules/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "tags": ["jkumar", "jkumar-apache"]
+}
+

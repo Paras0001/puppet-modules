@@ -1,0 +1,10 @@
+---
+:backends:
+  - yaml
+:hierarchy:
+  - apache
+  - nginx
+  - "%{osfamily}/%{operatingsystemmajrelease}/%{architecture}/packages" 
+
+:yaml:
+  :datadir: /app/hieradata
