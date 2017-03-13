@@ -1,3 +1,3 @@
 ---
-  apache::packages: ["httpd", "httpd-tools", "httpd-devel"]
+  apache::packages: ["httpd"]
   haproxy::packages: ["haproxy"]
