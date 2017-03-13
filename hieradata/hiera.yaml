@@ -1,6 +1,6 @@
 version: 5
 defaults:
-  datadir: /app/hieradata
+  datadir: /app/puppetcode/hieradata
   data_hash: yaml_data
 hierarchy:
   - name: "Hiera YAML level"
