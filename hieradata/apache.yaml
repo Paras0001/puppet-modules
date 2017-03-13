@@ -1,5 +1,5 @@
 ---
-  apache::http_port: 80
+  apache::http_port: 81
   apache::https_port: 443
   apache::document_root: '/opt'
   apache::user: 'apache'
